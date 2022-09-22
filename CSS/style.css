@@ -1,0 +1,110 @@
+.hero-section {
+  background: url("https://static.pexels.com/photos/248064/pexels-photo-248064.jpeg") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+.fondo{
+  background-color:#D6D6D6;
+}
+.fondo a{
+  color:black;
+}
+.fondo a:green{
+  color:#16417C
+}
+.ajuste{
+  margin-top: 0px;
+}
+.margen{
+  margin-top: 100px
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .ajuste{
+    margin-top: 15px;
+    font-size:small;
+  }
+}
+
+
+/*Hero*/
+
+.hero-section {
+  background: url("../img/galletas3.jpg")fixed 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#footer{
+  font-size:small;
+  background-color: beige
+  color: black;
+
+}
+#footer a{
+  color:black;
+}
+h1, h2, h3{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+/*Termina Hero*/
+/*Menú*/
+
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
+
+
+
+/*Termina Menú*/
