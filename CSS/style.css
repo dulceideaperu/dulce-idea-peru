@@ -45,7 +45,7 @@
 /*Hero*/
 
 .hero-section {
-  background: url("https://github.com/dulceideaperu/dulce-idea-peru/blob/main/IMG/galletas3.jpg?raw=true")fixed 50% no-repeat;
+  background: url("https://github.com/dulceideaperu/dulce-idea-peru/blob/main/IMG/galletas3.jpg?raw=true") 50% no-repeat;
   background-size: cover;
   height: 60vh;
   text-align: center;
